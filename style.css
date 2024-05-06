@@ -1,0 +1,85 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#page1 {
+  height: 200vh;
+  width: 100%;
+  position: relative;
+  background-color: white;
+}
+#page1 video {
+  height: 100%;
+  width: 120%;
+  object-fit: cover;
+  z-index: ;
+  position: absolute;
+}
+#p1-content {
+  height: 120%;
+  width: 100%;
+
+  position: relative;
+}
+nav {
+  z-index: 1;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  font-size: 30px;
+  font-family: monospace;
+}
+.li {
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 0px;
+  gap: 400px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: fit-content;
+  height: 300px;
+  margin: 0 auto; 
+}
+
+.card {
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+.card {
+  width: 200px; 
+  box-shadow: shadow-md;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:group-hover {
+  transform: scale(1);
+} */
